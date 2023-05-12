@@ -1,11 +1,7 @@
 import pandas as pd
-import iris
-
-# URL du dataset IRIS
-iris_url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 
 # chargement du dataset
-iris_data = pd.read_csv(iris_url, header=None)
+iris_data = pd.read_csv(iris.csv, header=None)
 
 print("\n### Affichage des 5 premieres lignes du dataset")
 print(iris_data.head())
