@@ -15,4 +15,3 @@ print(iris_data.describe())
 print("\n### comptage des valeurs regroupées par nom ###")
 print(iris_data.groupby(4).count())
 
-iris.filtre(iris_data, "Iris-setosa")
