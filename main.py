@@ -1,9 +1,6 @@
 import pandas as pd
-<<<<<<< HEAD
 import iris
-=======
 import barplot
->>>>>>> graph
 
 # chargement du dataset
 iris_data = pd.read_csv("iris.csv", header=None)
