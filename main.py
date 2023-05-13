@@ -1,4 +1,5 @@
 import pandas as pd
+import iris
 
 # chargement du dataset
 iris_data = pd.read_csv("iris.csv", header=None)
